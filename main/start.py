@@ -197,7 +197,7 @@ async def about(bot, msg):
     ]]  
     await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True, parse_mode=enums.ParseMode.HTML)
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 @Client.on_callback_query(filters.regex("del"))
 async def closed(bot, msg):
     try:
@@ -205,7 +205,7 @@ async def closed(bot, msg):
     except:
         return
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 #Ping
 @Client.on_message(filters.command("ping"))
 async def ping(bot, msg):
