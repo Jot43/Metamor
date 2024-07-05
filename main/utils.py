@@ -94,8 +94,8 @@ def convert(seconds):
 #ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Define heroku_restart function
 async def heroku_restart():
-    HEROKU_API = "HRKU-987b360b-e27e-43bf-b4e8-026e4c07521e"
-    HEROKU_APP_NAME = "infinitystartrename24bot"
+    HEROKU_API = "HRKU-8865f3c4-086b-4c62-bc04-75afc1c06625"
+    HEROKU_APP_NAME = "testgofile"
     x = None
     if not HEROKU_API or not HEROKU_APP_NAME:
         x = None
