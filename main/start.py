@@ -6,11 +6,11 @@ from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 from config import FSUB_UPDATES, FSUB_GROUP, SUNRISES_PIC
 
 START_TEXT = """
-Hᴇʟʟᴏ Mᴀᴡᴀ ❤️ ɪ ᴀᴍ Aᴅᴠᴀɴᴄᴇ Rᴇɴᴀᴍᴇ 𝟸𝟺 Bᴏᴛ [MᴇᴛᴀMᴏʀᴘʜᴇʀ]⚡\n\n Tʜɪꜱ ʙᴏᴛ ɪꜱ ᴍᴀᴅᴇ ʙʏ <b><a href=https://t.me/Sunrises24botupdates>SUNRISES ™💥</a></b>
-"🎉 Mᴇᴇᴛ ᴛʜᴇ Sɪᴍᴘʟᴇ Rᴇɴᴀᴍᴇ 𝟸𝟺 Bᴏᴛ ⚡! Cʀᴇᴀᴛᴇᴅ ᴡɪᴛʜ ʟᴏᴠᴇ ʙʏ <b><a href=https://t.me/Sunrises_24>Sᴜɴʀɪꜱᴇꜱ Hᴀʀꜱʜᴀ 𝟸𝟺❤️</a></b>, ᴛʜɪꜱ ʙᴏᴛ ᴘᴀᴄᴋꜱ ᴀ ᴘᴜɴᴄʜ ᴡɪᴛʜ ɪᴛꜱ ɪɴᴄʀᴇᴅɪʙʟᴇ ғᴇᴀᴛᴜʀᴇꜱ. Fʀᴏᴍ ʀᴇɴᴀᴍɪɴɢ ᴍᴀꜱꜱɪᴠᴇ ғɪʟᴇꜱ ᴛᴏ ᴍᴀɴᴀɢɪɴɢ ᴍᴇᴛᴀᴅᴀᴛᴀ ᴀɴᴅ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏꜱ,Mᴇʀɢᴇ Vɪᴅᴇᴏ  🎞️ + 🎞️,Fɪʟᴇs Uᴘʟᴏᴀᴅ Tᴏ Gᴏғɪʟᴇ Lɪɴᴋ, ɪᴛ'ꜱ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ᴄᴏᴍᴘᴀɴɪᴏɴ ғᴏʀ ᴍᴇᴅɪᴀ ᴛᴀꜱᴋꜱ. Nᴇᴇᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ ᴏʀ ᴛᴏ ᴜɴᴢɪᴘ ғɪʟᴇꜱ, Aᴛᴛᴀᴄʜ Pʜᴏᴛᴏ ᴛᴏ ғɪʟᴇ? Nᴏ ᴘʀᴏʙʟᴇᴍ! Jᴜꜱᴛ ꜱᴘᴇᴄɪғʏ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇꜱ, ᴀɴᴅ ʟᴇᴛ ᴛʜᴇ ʙᴏᴛ ʜᴀɴᴅʟᴇ ᴛʜᴇ ʀᴇꜱᴛ. Exᴘʟᴏʀᴇ ᴛʜᴇ ᴘᴏᴡᴇʀ ᴏғ ꜱɪᴍᴘʟɪᴄɪᴛʏ ᴛᴏᴅᴀʏ! 💥 #SUNRISES24BOTS #SIMPLERENAME24BOT"
+𝕳ᴇʟʟᴏ ❤️ ɪ ᴀᴍ 𝕬ᴅᴠᴀɴᴄᴇ 𝕸𝖊𝖗𝖌𝖊/𝕽𝖊𝖓𝖆𝖒𝖊 𝕭𝖔𝖙⚡\n\n 𝕿ʜɪꜱ ʙᴏᴛ ɪꜱ ᴍᴀᴅᴇ ʙʏ to<b><a href=https://telegram.me/NordBotz>ησя∂ вσтz💥⚡\n\n Tʜɪꜱ ʙᴏᴛ ɪꜱ ᴍᴀᴅᴇ ʙʏ <b><a href=https://t.me/NordBotz>ησя∂ вσтz💥</a></b>
+"🎉 Mᴇᴇᴛ ᴛʜᴇ Sɪᴍᴘʟᴇ Rᴇɴᴀᴍᴇ Bᴏᴛ ⚡! Cʀᴇᴀᴛᴇᴅ ᴡɪᴛʜ ʟᴏᴠᴇ ʙʏ <b><a href=https://t.me/i_manjot_sidhu>נσт ѕι∂нυ❤️</a></b>, ᴛʜɪꜱ ʙᴏᴛ ᴘᴀᴄᴋꜱ ᴀ ᴘᴜɴᴄʜ ᴡɪᴛʜ ɪᴛꜱ ɪɴᴄʀᴇᴅɪʙʟᴇ ғᴇᴀᴛᴜʀᴇꜱ. Fʀᴏᴍ ʀᴇɴᴀᴍɪɴɢ ᴍᴀꜱꜱɪᴠᴇ ғɪʟᴇꜱ ᴛᴏ ᴍᴀɴᴀɢɪɴɢ ᴍᴇᴛᴀᴅᴀᴛᴀ ᴀɴᴅ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏꜱ,Mᴇʀɢᴇ Vɪᴅᴇᴏ  🎞️ + 🎞️,Fɪʟᴇs Uᴘʟᴏᴀᴅ Tᴏ Gᴏғɪʟᴇ Lɪɴᴋ, ɪᴛ'ꜱ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ᴄᴏᴍᴘᴀɴɪᴏɴ ғᴏʀ ᴍᴇᴅɪᴀ ᴛᴀꜱᴋꜱ. Nᴇᴇᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ ᴏʀ ᴛᴏ ᴜɴᴢɪᴘ ғɪʟᴇꜱ, Aᴛᴛᴀᴄʜ Pʜᴏᴛᴏ ᴛᴏ ғɪʟᴇ? Nᴏ ᴘʀᴏʙʟᴇᴍ! Jᴜꜱᴛ ꜱᴘᴇᴄɪғʏ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇꜱ, ᴀɴᴅ ʟᴇᴛ ᴛʜᴇ ʙᴏᴛ ʜᴀɴᴅʟᴇ ᴛʜᴇ ʀᴇꜱᴛ. Exᴘʟᴏʀᴇ ᴛʜᴇ ᴘᴏᴡᴇʀ ᴏғ ꜱɪᴍᴘʟɪᴄɪᴛʏ ᴛᴏᴅᴀʏ! "
 """
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
  
 joined_channel_1 = {}
 joined_channel_2 = {}
@@ -64,11 +64,11 @@ async def start(bot, msg: Message):
         photo=SUNRISES_PIC,
         caption=start_text,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Developer ❤️", url="https://t.me/Sunrises_24"),
-             InlineKeyboardButton("Updates 📢", url="https://t.me/Sunrises24botupdates")],
+            [InlineKeyboardButton("Developer ❤️", url="https://t.me/NordBotz"),
+             InlineKeyboardButton("Updates 📢", url="https://t.me/i_manjot_sidhu")],
             [InlineKeyboardButton("Help 🌟", callback_data="help"),
              InlineKeyboardButton("About 🧑🏻‍💻", callback_data="about")],
-            [InlineKeyboardButton("Support ❤️‍🔥", url="https://t.me/Sunrises24botSupport")]
+            [InlineKeyboardButton("Supported ❤️‍🔥", url="https://t.me/")]
         ]),
         reply_to_message_id=getattr(msg, "message_id", None)
     )
@@ -104,10 +104,10 @@ async def handle_private_message(bot, msg: Message):
 @Client.on_message(filters.command("about"))
 async def about_command(bot, msg):
     about_text = """
-<b>✯ Mʏ Nᴀᴍᴇ : <a href=https://t.me/MetaMorpher24Bot>𝐌𝐞𝐭𝐚𝐌𝐨𝐫𝐩𝐡𝐞𝐫 🌟</a></b>
-<b>✯ Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻 : <a href=https://t.me/Sunrises_24>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™ ⚡</a></b>
-<b>✯ Uᴘᴅᴀᴛᴇs 📢 : <a href=https://t.me/Sunrises24BotUpdates>𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢</a></b>
-<b>✯ Sᴜᴘᴘᴏʀᴛ ✨ : <a href=https://t.me/Sunrises24BotUpdates>𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✨</a></b>
+<b>✯ Mʏ Nᴀᴍᴇ: <a href=https://t.me/> 🌟</a></b>
+<b>✯ Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻 : <a href=https://t.me/i_manjot_sidhu>ᒍOT ᔕIᗪᕼᑌ ⚡</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs 📢 : <a href=https://t.me/NordBotz>𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢</a></b>
+<b>✯ Sᴜᴘᴘᴏʀᴛ ✨ : <a href=https://t.m>𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✨</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs 📊 : ᴠ2.4 [Sᴛᴀʙʟᴇ]</b>
     """
     await msg.reply_text(about_text)
@@ -116,7 +116,7 @@ async def about_command(bot, msg):
 @Client.on_message(filters.command("help"))
 async def help_command(bot, msg):
     help_text = """
-    <b>Hᴇʟʟᴏ Mᴀᴡᴀ ❤️
+    <b>Hᴇʟʟᴏ ❤️
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
 🦋 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
@@ -147,7 +147,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
  💭This bot is rename the files[#2GB].
  
-🔱 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Sunrises_24'>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™</a></b>
+🔱 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/i_manjot_sidhu'>ᒍOT ᔕIᗪᕼᑌ</a></b>
     
    """
     await msg.reply_text(help_text)
@@ -188,9 +188,9 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Dᴇᴠᴇʟᴏᴘᴇʀ ="<a href=https://t.me/Sunrises_24>SUNRISES™🧑🏻‍💻</a>"     
-    txt="<b>Uᴘᴅᴀᴛᴇs 📢: <a href=https://t.me/Sunrises24botupdates>SUNRISES™</a></b>"
-    txt="<b>Sᴜᴘᴘᴏʀᴛ ✨: <a href=https://t.me/Sunrises24botSupport>SUNRISES⚡™</a></b>"
+    Dᴇᴠᴇʟᴏᴘᴇʀ ="<a href=https://t.me/i_manjot_sidhu>ᒍOT ᔕIᗪᕼᑌ</a>"     
+    txt="<b>Uᴘᴅᴀᴛᴇs 📢: <a href=https://t.me/i_manjot_sidhu>ησя∂ вσтz</a></b>"
+    txt="<b>Sᴜᴘᴘᴏʀᴛ ✨: <a href=https://t.me/t>💎</a></b>"
     txt="<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs 📊 : ᴠ2.4 [Sᴛᴀʙʟᴇ]</b>" 
     button= [[        
         InlineKeyboardButton("Cʟᴏꜱᴇ ❌", callback_data="del")       
