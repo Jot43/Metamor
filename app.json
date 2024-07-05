@@ -15,27 +15,27 @@
         }, 
         "API_HASH": { 
             "description": "Your API_HASH from https://my.telegram.org/apps", 
-            "required": true 
+            "required": false 
         },
         "FSUB_UPDATES": { 
             "description": "forcesub username channel and admin it", 
-            "required": true 
+            "required": false
         }, 
         "FSUB_GROUP": { 
             "description": "forcesub username group and admin it", 
-            "required": true 
+            "required": false
         },
         "SUNRISES_PIC": { 
             "description": "Start Pic", 
-            "required": true 
+            "required": true
         }, 
         "AUTH_USERS": { 
             "description": "For Restart OWNER ID & Leech support", 
-            "required": true 
+            "required": false
         },       
         "ADMIN": { 
             "description": "Your telegram ID,Run the Bot", 
-            "required": true 
+            "required": false
         }, 
         "CAPTION": { 
             "description": "your permanent caption", 
