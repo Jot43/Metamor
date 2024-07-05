@@ -17,9 +17,10 @@ PROGRESS_BAR = """
 │
 ├<b>⏱️**ETA** : {4}</b>
 │
+├<b> @NordBotz
 ╰─────────────────⍟"""
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 async def progress_message(current, total, ud_type, message, start):
     now = time.time()
     diff = now - start
@@ -49,13 +50,13 @@ async def progress_message(current, total, ud_type, message, start):
                     estimated_total_time if estimated_total_time != '' else '0 s',
                     progress
                 ),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Jᴏɪɴ Us 🌟", url="https://t.me/Sunrises24botupdates")]])
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Jᴏɪɴ Us 🌟", url="https://t.me/NordBotz")]])
             )
         except Exception as e:
             print(f"Error editing message: {e}")
 
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 def TimeFormatter(milliseconds: int) -> str:
     seconds, milliseconds = divmod(milliseconds, 1000)
     minutes, seconds = divmod(seconds, 60)
@@ -68,7 +69,7 @@ def TimeFormatter(milliseconds: int) -> str:
           ((str(milliseconds) + "ms, ") if milliseconds else "")
     return tmp[:-2]
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 def humanbytes(size):
     if not size:
         return ""
@@ -81,7 +82,7 @@ def humanbytes(size):
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 def convert(seconds):
     seconds = seconds % (24 * 3600)
     hour = seconds // 3600
@@ -90,7 +91,7 @@ def convert(seconds):
     seconds %= 60
     return "%d:%02d:%02d" % (hour, minutes, seconds)
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Define heroku_restart function
 async def heroku_restart():
     HEROKU_API = "HRKU-987b360b-e27e-43bf-b4e8-026e4c07521e"
@@ -109,7 +110,7 @@ async def heroku_restart():
             x = False
     return x
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 #for merging downloading media
 async def download_media(msg, sts):
     c_time = time.time()
@@ -121,7 +122,7 @@ async def download_media(msg, sts):
         await sts.edit(f"❌ Error downloading media: {e}")
         raise
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24        
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz    
 # Recursive function to upload files
 async def upload_files(bot, chat_id, directory, base_path=""):
     for item in os.listdir(directory):
