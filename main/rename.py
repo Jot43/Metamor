@@ -1,4 +1,4 @@
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 import subprocess
 import os
 import time, datetime
@@ -39,7 +39,7 @@ CHANGE_INDEX_ENABLED = True
 MERGE_ENABLED = True
 
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Command handler to start the interaction (only in admin)
 @Client.on_message(filters.command("bsettings") & filters.chat(ADMIN))
 async def bot_settings_command(_, msg):
@@ -60,7 +60,7 @@ async def display_bot_settings_inline(msg):
     
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton("💠", callback_data="sunrises24_bot_updates")],            
+            [InlineKeyboardButton("💠", callback_data="NordBotz")],            
             [InlineKeyboardButton(f"{rename_status} Change Rename 📝", callback_data="toggle_rename")],
             [InlineKeyboardButton(f"{removealltags_status} Remove All Tags 📛", callback_data="toggle_removealltags")],
             [InlineKeyboardButton(f"{metadata_status} Change Metadata ☄️", callback_data="toggle_metadata")],            
@@ -69,14 +69,14 @@ async def display_bot_settings_inline(msg):
             [InlineKeyboardButton(f"{photo_attach_status} Attach Photo 🖼️", callback_data="toggle_photo_attach")],                        
             [InlineKeyboardButton(f"{multitask_status} Multi task 📑", callback_data="toggle_multitask")],            
             [InlineKeyboardButton("Close ❌", callback_data="del")],
-            [InlineKeyboardButton("💠", callback_data="sunrises24_bot_updates")]
+            [InlineKeyboardButton("💠", callback_data="NordBotz")]
         ]
     )
 
     await msg.reply_text("Use inline buttons to manage your settings:", reply_markup=keyboard)
 
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 @Client.on_callback_query(filters.regex("del"))
 async def closed(bot, msg):
     try:
@@ -140,7 +140,7 @@ async def toggle_merge_video_callback(_, callback_query):
 # Callback query handler for the "sunrises24_bot_updates" button
 @Client.on_callback_query(filters.regex("^sunrises24_bot_updates$"))
 async def sunrises24_bot_updates_callback(_, callback_query):
-    await callback_query.answer("MADE BY @SUNRISES24BOTUPDATES ❤️", show_alert=True)    
+    await callback_query.answer("MADE BY @NordBotz ❤️", show_alert=True)    
 
 
 async def update_settings_message(message):
@@ -156,7 +156,7 @@ async def update_settings_message(message):
       
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton("💠", callback_data="sunrises24_bot_updates")],            
+            [InlineKeyboardButton("💠", callback_data="NordBotz")],            
             [InlineKeyboardButton(f"{rename_status} Change Rename 📝", callback_data="toggle_rename")],
             [InlineKeyboardButton(f"{removealltags_status} Remove All Tags 📛", callback_data="toggle_removealltags")],
             [InlineKeyboardButton(f"{metadata_status} Change Metadata ☄️", callback_data="toggle_metadata")],            
@@ -165,7 +165,7 @@ async def update_settings_message(message):
             [InlineKeyboardButton(f"{photo_attach_status} Attach Photo 🖼️", callback_data="toggle_photo_attach")],                        
             [InlineKeyboardButton(f"{multitask_status} Multi task 📑", callback_data="toggle_multitask")],            
             [InlineKeyboardButton("Close ❌", callback_data="del")],
-            [InlineKeyboardButton("💠", callback_data="sunrises24_bot_updates")]
+            [InlineKeyboardButton("💠", callback_data="NordBotz")]
         ]
     )
 
@@ -212,7 +212,7 @@ async def display_user_settings(client, msg, edit=False):
     current_screenshots = user_settings.get(user_id, {}).get("screenshots", "Not set")
 
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("💠", callback_data="sunrises24_bot_updates")],
+        [InlineKeyboardButton("💠", callback_data="NordBotz")],
         [InlineKeyboardButton("Sample Video Settings 🎞️", callback_data="sample_video_option")],
         [InlineKeyboardButton("Screenshots Settings 📸", callback_data="screenshots_option")],
         [InlineKeyboardButton("Thumbnail Settings 📄", callback_data="thumbnail_settings")],
@@ -227,7 +227,7 @@ async def display_user_settings(client, msg, edit=False):
         [InlineKeyboardButton("Preview Index task ♻️", callback_data="preview_change_index_task")],
         [InlineKeyboardButton("Preview Merge Video task 🎞️", callback_data="preview_merge_video_task")],
         [InlineKeyboardButton("Preview Remove Tags task 📛", callback_data="preview_removetags_task")],
-        [InlineKeyboardButton("💠", callback_data="sunrises24_bot_updates")],
+        [InlineKeyboardButton("💠", callback_data="NordBotz")],
         [InlineKeyboardButton("Close ❌", callback_data="del")]
     ])
     if edit:
@@ -235,7 +235,7 @@ async def display_user_settings(client, msg, edit=False):
     else:
         await msg.reply(f"User Settings\nCurrent sample video duration: {current_duration}\nCurrent screenshots setting: {current_screenshots}", reply_markup=keyboard)
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 @Client.on_callback_query(filters.regex("^screenshots_option$"))
 async def screenshots_option(client, callback_query: CallbackQuery):
     user_id = callback_query.from_user.id
@@ -267,7 +267,7 @@ async def set_screenshots(client, callback_query: CallbackQuery):
     await display_user_settings(client, callback_query.message, edit=True)
 
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Inline query handler for previewing metadata titles
 @Client.on_callback_query(filters.regex("^preview_metadata$"))
 async def inline_preview_metadata_callback(_, callback_query):
@@ -377,7 +377,7 @@ async def inline_preview_change_index_task_callback(_, callback_query):
     status_text = "Change Index is enabled." if CHANGE_INDEX_ENABLED else "Change Index is disabled."
     await callback_query.message.reply_text(status_text)
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Inline query handler for thumbnail settings
 @Client.on_callback_query(filters.regex("^thumbnail_settings$"))
 async def inline_thumbnail_settings(client, callback_query: CallbackQuery):
@@ -732,7 +732,7 @@ async def change_metadata(bot, msg):
         if file_thumb and os.path.exists(file_thumb):
             os.remove(file_thumb)
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 #Attcah Photo Command 
 @Client.on_message(filters.command("attachphoto") & filters.chat(GROUP))
 async def attach_photo(bot, msg):
@@ -1037,7 +1037,7 @@ async def change_index_sub(bot, msg):
         except Exception as e:
             print(f"Error deleting files: {e}")
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Command to start merging files
 @Client.on_message(filters.command("merge") & filters.chat(GROUP))
 async def start_merge_command(bot, msg):
@@ -1380,7 +1380,7 @@ async def sample_video(bot, msg):
     os.remove(output_file)
     await sts.delete()
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 #Leech Command Only Auth Users
 @Client.on_message(filters.command("leech") & filters.chat(AUTH_USERS))
 async def linktofile(bot, msg: Message):
