@@ -1,4 +1,4 @@
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 import subprocess
 import zipfile
 import asyncio
@@ -41,7 +41,7 @@ def change_video_metadata(input_path, video_title, audio_title, subtitle_title, 
     if process.returncode != 0:
         raise Exception(f"FFmpeg error: {stderr.decode('utf-8')}")
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 def generate_sample_video(input_path, duration, output_path):
     # Get the total duration of the input video using ffprobe
     probe_command = [
@@ -100,7 +100,7 @@ def add_photo_attachment(input_path, attachment_path, output_path):
     if process.returncode != 0:
         raise Exception(f"FFmpeg error: {stderr.decode('utf-8')}")
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Function to merge videos 
 async def merge_videos(input_file, output_file):
     file_generator_command = [
@@ -131,7 +131,7 @@ async def merge_videos(input_file, output_file):
     except Exception as e:
         raise RuntimeError(f"Error merging videos: {e}")
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
+#ALL FILES UPLOADED - CREDITS 🌟 - @NordBotz
 # Function to unzip files
 def unzip_file(file_path, extract_path):
     extracted_files = []
