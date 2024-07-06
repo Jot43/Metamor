@@ -31,7 +31,7 @@ merge_state = {}
 user_settings = {}
 
 # Initialize Gofile API key variable
-GOFILE_API_KEY = ""
+GOFILE_API_KEY = "5I8kCKpXjDQS4WdkVcNe3RZwIPTsLHeG"
 
 # Initialize global settings variables
 METADATA_ENABLED = True 
