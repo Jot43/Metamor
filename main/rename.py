@@ -23,7 +23,7 @@ from main.ffmpeg import remove_all_tags, change_video_metadata, generate_sample_
 DOWNLOAD_LOCATION1 = "./screenshots"
 
 # Initialize Gofile API key variable
-GOFILE_API_KEY = ""
+GOFILE_API_KEY = "5I8kCKpXjDQS4WdkVcNe3RZwIPTsLHeG"
 
 # Global dictionary to store user settings
 merge_state = {}
